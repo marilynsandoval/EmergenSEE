@@ -17,14 +17,13 @@
       <form method="post" id="coord_form" class="user_form">
         <label>Enter Coordinates:</label><br>
         <div class="coordinate_input">
-          <label>Lat:</label><input id="lat" name="lat" type="text"/>
-          <br>
-          <label>Lon:</label><input id="lon" name="lon" type="text"/>
+          <label for = "img">Upload image:</label>
+          <input type = "file" name = "img" id = "img" accept = "image/*"/>
         </div>
         <input name="submit_button" type="submit" id="coord_submit" class="submit_btn"/>
       </form>
       <form method="post" id="address_form" class="user_form">
-        <label>Enter address:</label><input id="address" name="address" type="text"/>
+        <label>Enter address:</label><input for = "address" id="address" name="address" type="text"/>
         <input name="submit_button" type="submit" id="address_submit" class="submit_btn"/>
       </form>
     </div>
